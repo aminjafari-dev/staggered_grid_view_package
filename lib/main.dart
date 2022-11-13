@@ -63,7 +63,9 @@ Expanded(
     ),
     semanticChildCount: 10,
     childrenDelegate: SliverChildBuilderDelegate(
-      (context, index) => Container(child: Text("data"),color: Colors.red,),
+      (context, index) => Container(
+        alignment: Alignment.center,
+        child: Text("Test string"),color: Colors.red,),
     ),
   ),
 ),
